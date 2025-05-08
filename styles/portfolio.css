@@ -54,7 +54,9 @@ nav ul{
 .banner-pic{
   width: 580px;
 }
-
+.text-center{
+  text-align: center;
+}
 /* header */
 .header{
   background-image: url('../images/developer.png'),url('../images/header_bg.png');
@@ -85,12 +87,18 @@ nav li a{
   font-size: 35px;
   font-weight: bold;
   color: #181818;
+  text-align: center;
 }
 .section-description{
   font-size: 18px;
   color: #757575;
+  text-align: center;
 }
 /* main styles */
+.main section{
+  margin-top:130px ;
+  margin-bottom: 130px;
+}
 .main{
   max-width: 1140px;
   margin: 0 auto;
@@ -110,4 +118,12 @@ nav li a{
 .about-items{
   display: flex;
   justify-content: space-around;
+}
+.skills-container{
+  display: flex;
+}
+.skills{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(30, 30, 30, 1);
 }
