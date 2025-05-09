@@ -97,18 +97,20 @@ nav li a{
   text-align: center;
 }
   /* main styles */
+  .main{
+    max-width: 1140px;
+    padding: 130px 230px;
+    gap: 120px;
+    
+  }
 .main section{
   margin-top:130px ;
   margin-bottom: 130px;
 }
-.main{
-  max-width: 1140px;
-  margin: 0 auto;
-}
+
+
 /* about styles */
 .about{
-  
-  /* background-color: #fbe5d5; */
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
